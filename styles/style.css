@@ -65,31 +65,41 @@
 }
 
 .f-h4 {
-    font-weight: 700;
-    font-size: 40px;
+    margin-top: 369px;
+    margin-bottom: 37px;
     width: 288px;
     height: 94px;
     left: 862px;
     top: 1178px;
-    margin-left: 87px;
-    margin-bottom: 370px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 2px;
 }
 
 .f-desc {
-    font-weight: 400;
-    font-size: 16px;
-    margin-left: 87px;
-    margin-top: 24px;
-    margin-bottom: 2px;
     width: 416px;
     height: 104px;
     left: 862px;
     top: 1296px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
 }
 
 .f-list {
     list-style-type: none;
-    margin-left: 87px;
+    margin-left: 2px;
+    width: 315px;
+    height: 26px;
+    left: 896px;
+    top: 1416px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
 }
 
 .f-image {
@@ -175,4 +185,73 @@
     color: #f97501;
     border: 0;
     padding: 18px 35px;
+}
+
+.contact {
+    display: flex;
+    gap: 100px;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2668px;
+    background: #151414;
+}
+
+.section-title {
+    text-align: left;
+    color: white;
+    width: 148px;
+    height: 53px;
+    left: 230px;
+    top: 2798px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 2px;
+    margin-bottom: 16px;
+}
+
+.section-desc {
+    text-align: left;
+    color: #f6f3f2;
+    width: 485px;
+    height: 78px;
+    left: 230px;
+    top: 2867px;
+}
+
+.email {
+    text-align: left;
+    color: #f6f3f2;
+
+}
+
+.phone {
+    text-align: left;
+    color: #f6f3f2;
+    margin-bottom: 32px;
+    margin-top: 16px;
+}
+
+.sub {
+    text-align: left;
+    color: #f6f3f2;
+    width: 123px;
+    height: 29px;
+    left: 1046px;
+    top: 2798px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+    margin-left: 2px;
+}
+
+.contact input {
+    margin-bottom: 40px;
+    background-color: #151414;
+    color: #f6f3f2;
+    width: 325px;
+    height: 64px;
+    left: 1046px;
+    top: 2858px;
+    text-align: center;
 }
