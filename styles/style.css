@@ -1,0 +1,178 @@
+* {
+    margin: auto;
+    font-family: 'Work Sans';
+}
+
+.header {
+    background-image: url(../images/banner/banner1.png);
+    background-position-x: absolute absolute;
+    width: 1600px;
+    height: 809px;
+    left: 1600px;
+    top: 0px;
+}
+
+.banner {
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+}
+
+.banner-motivation {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    margin-bottom: 24px;
+}
+
+.banner-desc {
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: right;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+
+    border-radius: 7px;
+    background: #FD6E0A;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 18px 35px;
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 350px;
+
+}
+
+.failure {
+    display: flex;
+}
+
+.f-h4 {
+    font-weight: 700;
+    font-size: 40px;
+    width: 288px;
+    height: 94px;
+    left: 862px;
+    top: 1178px;
+    margin-left: 87px;
+    margin-bottom: 370px;
+}
+
+.f-desc {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 87px;
+    margin-top: 24px;
+    margin-bottom: 2px;
+    width: 416px;
+    height: 104px;
+    left: 862px;
+    top: 1296px;
+}
+
+.f-list {
+    list-style-type: none;
+    margin-left: 87px;
+}
+
+.f-image {
+    margin-top: 131px;
+}
+
+.tick {
+    color: chartreuse;
+}
+
+/* My Plans */
+.title {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 55.7px;
+}
+
+.plans-container {
+    display: flex;
+}
+
+.plan {
+    background: #FFFFFF;
+
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.plans {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    /* Dark 01 */
+
+    color: #151414;
+}
+
+.plan-description {
+    width: 177px;
+    height: 29px;
+    left: 277px;
+    top: 2063.26px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    /* Dark 03 */
+
+    color: #737272;
+}
+
+/* gradient */
+.bannerlast {
+    padding: 60px 130px;
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-left: 190px;
+
+}
+
+.quote {
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #fffbfb;
+    width: 459px;
+    height: 94px;
+    margin-left: 5px;
+}
+
+.btn-call {
+    width: 160px;
+    height: 64px;
+    border-radius: 10px;
+    background: #f6f3f2;
+    font-weight: 700;
+    font-size: 20px;
+    color: #f97501;
+    border: 0;
+    padding: 18px 35px;
+}
